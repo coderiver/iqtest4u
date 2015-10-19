@@ -68,5 +68,5 @@ body { font-family: "Myriad Regular", Arial, sans-serif; font-size: 18px; line-h
 @media only screen and (min-width: 1400px) { .start-btn { margin-bottom: 100px; } }
 @media only screen and (max-width: 1024px) { .start-btn { width: 250px; height: 70px; margin-bottom: 90px; border-radius: 40px; font-size: 1.5em; line-height: 70px; } }
 @media only screen and (max-width: 800px) { .start-btn { width: 250px; height: 70px; margin-bottom: 170px; border-radius: 35px; font-size: 1.5em; line-height: 70px; } }
-@media only screen and (max-width: 680px) { .start-btn { width: 200px; height: 60px; line-height: 60px; border-radius: 30px; font-size: 1.3em; margin-bottom: 40px; } }
-@media only screen and (max-width: 400px) { .start-btn { width: 200px; height: 60px; line-height: 60px; border-radius: 30px; font-size: 1.3em; margin-bottom: 60px; } }
+@media only screen and (max-width: 680px) { .start-btn { width: 192px; height: 60px; line-height: 60px; border-radius: 30px; font-size: 1.3em; margin-bottom: 40px; } }
+@media only screen and (max-width: 400px) { .start-btn { width: 192px; height: 60px; line-height: 60px; border-radius: 30px; font-size: 1.3em; margin-bottom: 60px; } }
