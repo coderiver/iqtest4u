@@ -49,9 +49,39 @@
 
 
 body
-	font-family: Arial, sans-serif
-	font-size: 12px
-	line-height: 1.4
+	font-family: 'MyriadPro Regular', Arial, sans-serif
+	font-size: 18px
+	line-height: auto
+	color: #fff
 
 
-// common blocks
+
+//media breakpoints
+
+=r1 
+	@media only screen and (min-width: "1400px")
+		@content
+=r2
+	@media only screen and (max-width: "1024px")
+		@content
+=r3
+	@media only screen and (max-width: "800px")
+		@content
+=r4
+	@media only screen and (max-width: "680px")
+		@content
+=r5
+	@media only screen and (max-width: "400px")
+		@content
+
+
+//fonts	
+
++font("MyriadPro-Bold", MyriadPro-Bold_gdi)
++font("MyriadPro Regular", MyriadPro-Regular_gdi)
+
+
+=bold
+	font-family: "MyriadPro-Bold", Arial, sans-serif 
+=reg
+	font-family: "MyriadPro Regular", Arial, sans-serif 

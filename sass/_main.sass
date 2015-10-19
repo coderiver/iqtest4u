@@ -1,1 +1,136 @@
 // Normally mainpage styles
+.container
+	position: relative
+	height: 100%
+	background: url(../img/bg-main.jpg) no-repeat 50% 50%
+	background-size: cover
+	&:before
+		content: ""
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background: #000
+		opacity: 0.4
+
+.logo
+	&__link
+		position: absolute
+		display: inline-block
+		vertical-align: top
+		+r4
+			width: 26%		
+		+r5
+			width: 40%
+		img
+			max-width: 100%
+	&__iq
+		top: 5%
+		left: 5%
+	&__comp
+		top: 7%
+		right: 5%
+.content
+	position: absolute
+	top: 35%
+	left: 25%
+	right: 25%
+	text-align: center
+	+r1
+		top: 57%
+		left: 25%
+		right: 25%
+	+r2
+		top: 41%
+		left: 19%
+		right: 19%
+	+r3
+		left: 15%
+		right: 15%		
+	+r4
+		top: 40%
+		left: 10%
+		right: 10%
+	+r5
+		top: 39%
+		left: 20%
+		right: 20%
+	h2
+		+r2
+			font-size: 2em
+			padding-bottom: 50px
+		+r3
+			font-size: 2em
+		+r4
+			padding-bottom: 17px
+			font-size: 1.2em
+		+r5
+			font-size: 1.1em
+			padding-bottom: 20px	
+		font-size: 2.2em			
+		text-transform: uppercase
+		padding-bottom: 20px
+		+bold
+	p
+		padding-bottom: 40px
+		font-size: 2em
+		+r1
+			font-size: 2.5em		
+		+r2
+			font-size: 1.7em
+			padding-bottom: 70px
+		+r3
+			font-size: 1.7em
+			padding-bottom: 70px
+		+r4
+			font-size: 1.1em
+			padding-bottom: 30px
+		+r5
+			font-size: 1.1em
+			padding-bottom: 60px	
+	.cost
+		width: 300px
+		margin: 0 auto
+		font-size: 0.7em
+		+r4
+			display: none		
+		+r5
+			display: none
+
+.start-btn
+	width: 280px
+	height: 65px
+	border-radius: 35px
+	margin-bottom: 40px
+	font-size: 1.5em
+	line-height: 45px
+	color: #fff
+	text-transform: uppercase
+	background: #e75b39
+	&:hover
+		background: #ff643e
+	+r2
+		width: 250px
+		height: 70px
+		border-radius: 40px
+		font-size: 1.5em
+	+r3
+		width: 250px
+		height: 70px
+		border-radius: 35px
+		font-size: 1.5em
+	+r4
+		width: 200px
+		height: 60px
+		line-height: 40px
+		border-radius: 30px
+		font-size: 1.3em
+		margin-bottom: 0
+	+r5
+		width: 200px
+		height: 60px
+		line-height: 40px
+		border-radius: 30px
+		font-size: 1.3em
+		margin-bottom: 0
