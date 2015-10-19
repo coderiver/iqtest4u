@@ -46,8 +46,8 @@ body { font-family: "Myriad Regular", Arial, sans-serif; font-size: 18px; line-h
 @media only screen and (min-width: 1400px) { .content { top: 57%; left: 25%; right: 25%; } }
 @media only screen and (max-width: 1024px) { .content { top: 41%; left: 19%; right: 19%; } }
 @media only screen and (max-width: 800px) { .content { left: 15%; right: 15%; } }
-@media only screen and (max-width: 680px) { .content { top: 40%; left: 10%; right: 10%; } }
-@media only screen and (max-width: 400px) { .content { top: 39%; left: 20%; right: 20%; } }
+@media only screen and (max-width: 680px) { .content { top: 25%; left: 10%; right: 10%; } }
+@media only screen and (max-width: 400px) { .content { top: 28%; left: 20%; right: 20%; } }
 .content h2 { font-family: "Myriad Bold", Arial, sans-serif; font-size: 2.2em; text-transform: uppercase; padding-bottom: 20px; }
 @media only screen and (max-width: 1024px) { .content h2 { font-size: 2em; padding-bottom: 50px; } }
 @media only screen and (max-width: 800px) { .content h2 { font-size: 2em; } }
@@ -59,13 +59,13 @@ body { font-family: "Myriad Regular", Arial, sans-serif; font-size: 18px; line-h
 @media only screen and (max-width: 800px) { .content p { font-size: 1.7em; padding-bottom: 70px; } }
 @media only screen and (max-width: 680px) { .content p { font-size: 1.1em; padding-bottom: 30px; } }
 @media only screen and (max-width: 400px) { .content p { font-size: 1.1em; padding-bottom: 60px; } }
-.content .cost { width: 300px; margin: 0 auto; font-size: 0.7em; }
-@media only screen and (max-width: 680px) { .content .cost { display: none; } }
-@media only screen and (max-width: 400px) { .content .cost { display: none; } }
+.content .cost { width: 300px; margin: 0 auto; font-size: 0.7em; padding: 0; }
+@media only screen and (max-width: 680px) { .content .cost { width: 250px; font-size: 0.5em; } }
+@media only screen and (max-width: 400px) { .content .cost { width: auto; font-size: 0.5em; } }
 
-.start-btn { width: 280px; height: 65px; border-radius: 35px; margin-bottom: 40px; font-size: 1.5em; line-height: 45px; color: #fff; text-transform: uppercase; background: #e75b39; }
+.start-btn { display: inline-block; width: 280px; height: 65px; border-radius: 35px; margin-bottom: 40px; font-size: 1.5em; line-height: 65px; color: #fff; text-transform: uppercase; text-decoration: none; background: #e75b39; }
 .start-btn:hover { background: #ff643e; }
-@media only screen and (max-width: 1024px) { .start-btn { width: 250px; height: 70px; border-radius: 40px; font-size: 1.5em; } }
-@media only screen and (max-width: 800px) { .start-btn { width: 250px; height: 70px; border-radius: 35px; font-size: 1.5em; } }
-@media only screen and (max-width: 680px) { .start-btn { width: 200px; height: 60px; line-height: 40px; border-radius: 30px; font-size: 1.3em; margin-bottom: 0; } }
-@media only screen and (max-width: 400px) { .start-btn { width: 200px; height: 60px; line-height: 40px; border-radius: 30px; font-size: 1.3em; margin-bottom: 0; } }
+@media only screen and (max-width: 1024px) { .start-btn { width: 250px; height: 70px; border-radius: 40px; font-size: 1.5em; line-height: 70px; } }
+@media only screen and (max-width: 800px) { .start-btn { width: 250px; height: 70px; border-radius: 35px; font-size: 1.5em; line-height: 70px; } }
+@media only screen and (max-width: 680px) { .start-btn { width: 200px; height: 60px; line-height: 60px; border-radius: 30px; font-size: 1.3em; margin-bottom: 20px; } }
+@media only screen and (max-width: 400px) { .start-btn { width: 200px; height: 60px; line-height: 60px; border-radius: 30px; font-size: 1.3em; margin-bottom: 20px; } }
