@@ -90,24 +90,25 @@
 			font-size: 1.1em
 			padding-bottom: 60px	
 	.cost
-		width: 300px
-		margin: 0 auto
-		font-size: 0.7em
+		position: absolute
+		bottom: 0
+		left: 50%
 		padding: 0
+		transform: translateX(-50%)
+		font-size: 6px
+		opacity: .8
 		+r4
-			width: 250px
-			font-size: 0.5em
+			width: 170px
+			font-size: 6px
 		+r5
-			width: auto
-			font-size: 0.5em
-
-
+			width: 170px
+			font-size: 6px
 .start-btn
 	display: inline-block
 	width: 280px
 	height: 65px
 	border-radius: 35px
-	margin-bottom: 40px
+	margin-bottom: 90px
 	font-size: 1.5em
 	line-height: 65px
 	color: #fff
@@ -116,15 +117,19 @@
 	background: #e75b39
 	&:hover
 		background: #ff643e
+	+r1
+		margin-bottom: 100px
 	+r2
 		width: 250px
 		height: 70px
+		margin-bottom: 90px
 		border-radius: 40px
 		font-size: 1.5em
 		line-height: 70px
 	+r3
 		width: 250px
 		height: 70px
+		margin-bottom: 170px
 		border-radius: 35px
 		font-size: 1.5em
 		line-height: 70px		
@@ -134,11 +139,11 @@
 		line-height: 60px
 		border-radius: 30px
 		font-size: 1.3em
-		margin-bottom: 20px
+		margin-bottom: 40px
 	+r5
 		width: 200px
 		height: 60px
 		line-height: 60px
 		border-radius: 30px
 		font-size: 1.3em
-		margin-bottom: 20px
+		margin-bottom: 60px
