@@ -59,9 +59,9 @@ body { font-family: "Myriad Regular", Arial, sans-serif; font-size: 18px; line-h
 @media only screen and (max-width: 800px) { .content p { font-size: 1.7em; padding-bottom: 70px; } }
 @media only screen and (max-width: 680px) { .content p { font-size: 1.1em; padding-bottom: 30px; } }
 @media only screen and (max-width: 400px) { .content p { font-size: 1.1em; padding-bottom: 60px; } }
-.content .cost { position: absolute; bottom: 0; left: 50%; padding: 0; transform: translateX(-50%); font-size: 6px; opacity: 0.8; }
-@media only screen and (max-width: 680px) { .content .cost { width: 170px; font-size: 6px; } }
-@media only screen and (max-width: 400px) { .content .cost { width: 170px; font-size: 6px; } }
+.content .cost { position: absolute; bottom: 0; left: 50%; width: 320px; margin-left: -160px; padding: 0; font-size: 6px; opacity: 0.8; }
+@media only screen and (max-width: 680px) { .content .cost { width: 170px; margin-left: -85px; } }
+@media only screen and (max-width: 400px) { .content .cost { width: 170px; margin-left: -85px; } }
 
 .start-btn { display: inline-block; width: 280px; height: 65px; border-radius: 35px; margin-bottom: 90px; font-size: 1.5em; line-height: 65px; color: #fff; text-transform: uppercase; text-decoration: none; background: #e75b39; }
 .start-btn:hover { background: #ff643e; }
